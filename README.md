@@ -23,7 +23,7 @@ results. The TAs have released the marks of students in the form of an array, wh
 represents the marks of the ith student.
 Since you are a curious kid, you want to find all the marks that are not smaller than those
 on its right side in the array.
-  #<h3> Input Format</h3>
+ #<h3> Input Format</h3>
 The first line of input will contain a single integer n denoting the number of students.
 The next line will contain n space separated integers representing the marks of students.
 # <h3>Output Format</h3>
