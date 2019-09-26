@@ -16,8 +16,6 @@ A.
 For each test case, print the minimum time in which all array elements will become
 greater than or equal to K. Print a new line after each test case.
 
-
-
 #<h2> 2. Hamiltonian and Lagrangian
 Students have become secret admirers of SEGP. They find the course exciting and the
 professors amusing. After a superb Mid Semester examination, it’s now time for the
@@ -44,8 +42,6 @@ The first line contains N the no. of coders
 The next line contains N elements where the ith element is theS[ i ] of ith coder.
 # <h3>Output Format</h3>
 Print a single line containing the minimum sum.
-
-
 
 #<h2> 4. Pink Floyd and Happiness</h2>
 Pink is sad because of some reasons, he wants to cheer up by listening to some songs
