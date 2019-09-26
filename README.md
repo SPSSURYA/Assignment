@@ -6,13 +6,13 @@ value of each array element by 1. He wants each array element's value to become 
 than or equal to K. Please help Micro to find out the minimum amount of time it will take,
 for him to do so.
 
-# Input:
+# <h3>Input:</h3>
 First line consists of a single integer, T, denoting the number of test cases.
 First line of each test case consists of two space separated integers denoting N and K.
 Second line of each test case consists of N space separated integers denoting the array
 A.
 
-# Output:
+# <h3>Output:</h3>
 For each test case, print the minimum time in which all array elements will become
 greater than or equal to K. Print a new line after each test case.
 
