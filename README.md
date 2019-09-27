@@ -63,7 +63,7 @@ Print "Happy" if the playlist has songs from 1 to N in order else "Sad".
 1<=N<=10^5
 The array consists of 1-N distinct numbers.
 
-# <h2>Remove Friends</h2>
+# <h2>5.Remove Friends</h2>
 After getting her PhD, Christie has become a celebrity at her university, and her
 Facebook profile is full of friend requests. Being the nice girl, she is, Christie has
 accepted all the requests.
