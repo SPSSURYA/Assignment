@@ -79,8 +79,8 @@ The next line contains N elements where the ith element is theS[ i ] of ith code
 # <h3>Output Format</h3>
 Print a single line containing the minimum sum.
 # <h4>Constraints</h4>
-1<= N <= 1000000
-1<=S[ i ]<=1000
+1<= N <= 1000000<br>
+1<=S[ i ]<=1000<br>
 <table style="width:100%">
  <tr>
    <th>SAMPLE INPUT</th>
@@ -103,14 +103,14 @@ Playlist in the delivered order or put some on another table. After being put on
 table only the topmost record can be added to the playlist at any time.
 Print whether Pink will be sad or happy after the delivery of the records.
 # <h3>Input Format</h3>
-N - Number of records followed by
-N numbers- order of records.
+N - Number of records followed by<br>
+N - Numbers- order of records.<br>
 #<h3> Output Format</h3>
 Print "Happy" if the playlist has songs from 1 to N in order else "Sad".
 
 # <h3>Constraints</h3>
-1<=N<=10^5
-The array consists of 1-N distinct numbers.
+1<=N<=10^5<br>
+The array consists of 1-N distinct numbers.<br>
 
 <table style="width:100%">
  <tr>
