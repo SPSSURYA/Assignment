@@ -18,17 +18,21 @@ For each test case, print the minimum time in which all array elements will beco
 greater than or equal to K. Print a new line after each test case.
 
 
-# <h3>Sample Input:</h3>
-2<br>
+<table style="width:100%">
+ <tr>
+   <th>SAMPLE INPUT</th>
+   <th>SAMPLE OUTPUT</th>
+</tr>
+<tr>
+  <td>2<br>
 3 4<br>
 1 2 5<br>
 3 2<br>
-2 5 5<br>
-
-
-# <h3>Sample Output:</h3>
-3<br>
-0<br>
+    2 5 5</td>
+  <td>3<br>
+    0</td>
+  </tr>
+  </table>
 
 
 # <h2> 2. Hamiltonian and Lagrangian</h2>
@@ -49,14 +53,18 @@ those on its right side.
 0 <= arr[i] <= 10000<br>
 
 
-# <h2>Sample Input:</h2> 
-6<br>
-16 17 4 3 5 2<br>
-
-
-# <h3>Sample Output:</h3> 
-17 5 2<br>
-
+<table style="width:100%">
+ <tr>
+   <th>SAMPLE INPUT</th>
+   <th>SAMPLE OUTPUT</th>
+</tr>
+  <tr>
+   <tr>
+    <td>6<br>
+     16 17 4 3 5 2</td>
+    <td>17 5 2</td>
+ </tr>
+ </table>
 
 # <h2>3.Frustrated coders</h2>
 There are N frustrated coders standing in a circle with a gun in their hands. Each coder
@@ -70,7 +78,20 @@ The first line contains N the no. of coders
 The next line contains N elements where the ith element is theS[ i ] of ith coder.
 # <h3>Output Format</h3>
 Print a single line containing the minimum sum.
-
+# <h4>Constraints</h4>
+1<= N <= 1000000
+1<=S[ i ]<=1000
+<table style="width:100%">
+ <tr>
+   <th>SAMPLE INPUT</th>
+   <th>SAMPLE OUTPUT</th>
+</tr>
+  <tr>
+    <td>6<br>
+      1 7 2 2 4 4</td>
+    <td>11</td>
+  </tr>
+  </table>
 # <h2> 4. Pink Floyd and Happiness</h2>
 Pink is sad because of some reasons, he wants to cheer up by listening to some songs
 from his favorite band, Pink Floyd.
@@ -90,6 +111,18 @@ Print "Happy" if the playlist has songs from 1 to N in order else "Sad".
 # <h3>Constraints</h3>
 1<=N<=10^5
 The array consists of 1-N distinct numbers.
+
+<table style="width:100%">
+ <tr>
+   <th>SAMPLE INPUT</th>
+   <th>SAMPLE OUTPUT</th>
+</tr>
+  <tr>
+    <td>5<br>
+     1 2 4 3 5</td>
+   <td>Happy</td>
+ </tr>
+ </table>
 
 # <h2>5.Remove Friends</h2>
 After getting her PhD, Christie has become a celebrity at her university, and her
@@ -127,17 +160,22 @@ after deleting K friends.
 # <h3>NOTE:</h3>
 Order of friends after deleting exactly K friends should be maintained as given in
 input.
-
-# <h3>Sample Input:</h3>
-3<br>
+<table style="width:100%">
+ <tr>
+   <th>SAMPLE INPUT</th>
+   <th>SAMPLE OUTPUT</th>
+</tr>
+  <tr>
+    <td>3<br>
 3 1<br>
 3 100 1<br>
 5 2<br>
 19 12 3 4 17<br>
 5 3<br>
-23 45 11 77 18<br>
-# <h3>Sample Output:</h3>
-100 1 <br>
+     23 45 11 77 18</td>
+   <td>100 1 <br>
 19 12 17 <br>
-77 18<br>
+    77 18 </td>
+ </tr>
+ </table>
 
