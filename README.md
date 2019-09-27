@@ -98,5 +98,16 @@ Constraints
 Order of friends after deleting exactly K friends should be maintained as given in
 input.
 
-
+# <h3>Sample Input:</h3>
+3<br>
+<br>3 1
+3 100 1
+5 2
+19 12 3 4 17
+5 3
+23 45 11 77 18
+Your Code's Output
+100 1 
+19 12 17 
+77 18
 
