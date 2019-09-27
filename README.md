@@ -25,6 +25,7 @@ greater than or equal to K. Print a new line after each test case.
 3 2<br>
 2 5 5<br>
 
+
 # <h3>Sample Output:</h3>
 3<br>
 0<br>
@@ -43,6 +44,19 @@ The next line will contain n space separated integers representing the marks of 
 # <h3>Output Format</h3>
 Output all the integers separated in the array from left to right that are not smaller than
 those on its right side.
+# <h3>Constraints:</h3>
+1 <= n <= 1000000<br>
+0 <= arr[i] <= 10000<br>
+
+
+# <h2>Sample Input:</h2> 
+6<br>
+16 17 4 3 5 2<br>
+
+
+# <h3>Sample Output:</h3> 
+17 5 2<br>
+
 
 # <h2>3.Frustrated coders</h2>
 There are N frustrated coders standing in a circle with a gun in their hands. Each coder
