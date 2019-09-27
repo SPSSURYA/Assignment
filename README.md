@@ -12,6 +12,18 @@ First line of each test case consists of two space separated integers denoting N
 Second line of each test case consists of N space separated integers denoting the array
 A.
 
+# <h3>Sample Input:</h3>
+2<br>
+3 4<br>
+1 2 5<br>
+3 2<br>
+2 5 5<br>
+
+# <h3>Sample Output:</h3>
+3<br>
+0<br>
+
+
 # <h3>Output:</h3>
 For each test case, print the minimum time in which all array elements will become
 greater than or equal to K. Print a new line after each test case.
