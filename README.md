@@ -102,11 +102,13 @@ to delete. Next lines contains popularity of her friends separated by space.
 # <h3>Output Format</h3>
 For each test case print N-K numbers which represent popularity of Christie friend's
 after deleting K friends.
-Constraints
-1<=T<=1000
-1<=N<=100000
-0<=K< N
-0<=popularity_of_friend<=100
+
+
+# <h3>Constraints:</h3>
+1<=T<=1000<br>
+1<=N<=100000<br>
+0<=K< N<br>
+0<=popularity_of_friend<=100<br>
 
 # <h3>NOTE:</h3>
 Order of friends after deleting exactly K friends should be maintained as given in
