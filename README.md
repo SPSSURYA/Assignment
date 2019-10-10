@@ -236,5 +236,5 @@ Insert 3. It becomes right child of 2.
 Insert 4. It becomes right child of 3.
 Final height of tree = 3.
 
-<img src="Desktop/pubg.jpg" width="500" height="600">
+<img src="Desktop:/pubg.jpg" width="500" height="600">
 
