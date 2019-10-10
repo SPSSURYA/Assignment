@@ -75,11 +75,14 @@ him. One more thing, all the guns have only 1 bullet. This roulette can take pla
 any random order. Fortunately, you have the time stone (haaan wo harre wala) and
 you can see all possible outcomes of this scenario. Find the outcome where the total
 sum of the remaining coder's skill is minimum. Print this sum.
+
 # <h3>Input Format</h3>
 The first line contains N the no. of coders
 The next line contains N elements where the ith element is theS[ i ] of ith coder.
+
 # <h3>Output Format</h3>
 Print a single line containing the minimum sum.
+
 # <h4>Constraints</h4>
 1<= N <= 1000000<br>
 1<=S[ i ]<=1000<br>
@@ -104,10 +107,12 @@ Pink is delivered his records in some given order, he can either add the record 
 Playlist in the delivered order or put some on another table. After being put on the
 table only the topmost record can be added to the playlist at any time.
 Print whether Pink will be sad or happy after the delivery of the records.
+
 # <h3>Input Format</h3>
 N - Number of records followed by<br>
 N - Numbers- order of records.<br>
-#<h3> Output Format</h3>
+
+# <h3> Output Format</h3>
 Print "Happy" if the playlist has songs from 1 to N in order else "Sad".
 
 # <h3>Constraints</h3>
@@ -192,12 +197,15 @@ Help Monk for the same.
 or equal to the parent node; the right sub-tree contains only nodes with values
 greater than the parent node.
 2) Binary Search Tree with one node, has height equal to 1.
+
 # <h3>Input Format</h3>
 The first line will consist of 1 integer N, denoting the number of elements in the array.
 In next line, there will be N space separated integers, A[i], where 1 ≤ I ≤ N, denoting
 the elements of array.
+
 # <h3>Output Format</h3>
 Print the height of the created Binary Search Tree.
+
 # <h3>Constraints:</h3>
 1<=N<=10^3<br>
 1<=A[i]<=10^6<br>
