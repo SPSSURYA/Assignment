@@ -88,6 +88,8 @@ Print a single line containing the minimum sum.
 1<=S[ i ]<=1000<br>
 <table style="width:100%">
  <tr>
+  
+  
    <th>SAMPLE INPUT</th>
    <th>SAMPLE OUTPUT</th>
 </tr>
@@ -234,4 +236,5 @@ Insert 3. It becomes right child of 2.
 Insert 4. It becomes right child of 3.
 Final height of tree = 3.
 
+<img src="pubg.jpg">
 
