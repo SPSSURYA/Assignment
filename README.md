@@ -192,11 +192,11 @@ Help Monk for the same.
 or equal to the parent node; the right sub-tree contains only nodes with values
 greater than the parent node.
 2) Binary Search Tree with one node, has height equal to 1.
-# <h3>Input Format:</h3>
+# <h3>Input Format</h3>
 The first line will consist of 1 integer N, denoting the number of elements in the array.
 In next line, there will be N space separated integers, A[i], where 1 ≤ I ≤ N, denoting
 the elements of array.
-# <h3>Output Format:</h3>
+# <h3>Output Format</h3>
 Print the height of the created Binary Search Tree.
 # <h3>Constraints:</h3>
 1<=N<=10^3<br>
