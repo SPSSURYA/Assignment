@@ -242,7 +242,7 @@ And there is an enemy at each landing of the staircase.
 The staircase is analogous to a binary tree with each of its nodes as a landing of the
 staircase and each of its edges as stairs from one landing to another.
 
-<img src="https://he-s3.s3.amazonaws.com/media/uploads/9817cde1-d9a3-4551-9ecd-8ac1e50acd2a.png" width="300" height="400">
+<img src="https://he-s3.s3.amazonaws.com/media/uploads/9817cde1-d9a3-4551-9ecd-8ac1e50acd2a.png" >
 
 Yatin wants to kill the maximum possible number of enemies. He can kill every person
 he can see from his position with his suppressed sniper gun. But he can see only the
