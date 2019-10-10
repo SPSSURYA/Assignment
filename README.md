@@ -236,5 +236,5 @@ Insert 3. It becomes right child of 2.
 Insert 4. It becomes right child of 3.
 Final height of tree = 3.
 
-<img src="https://github.com/SPSSURYA/Assignment.wiki.git" width="500" height="600">
+<img src="https://he-s3.s3.amazonaws.com/media/uploads/9817cde1-d9a3-4551-9ecd-8ac1e50acd2a.png" width="500" height="600">
 
