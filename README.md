@@ -242,7 +242,7 @@ And there is an enemy at each landing of the staircase.
 The staircase is analogous to a binary tree with each of its nodes as a landing of the
 staircase and each of its edges as stairs from one landing to another.
 
-<img src="https://he-s3.s3.amazonaws.com/media/uploads/9817cde1-d9a3-4551-9ecd-8ac1e50acd2a.png" width="500" height="600">
+<img src="https://he-s3.s3.amazonaws.com/media/uploads/9817cde1-d9a3-4551-9ecd-8ac1e50acd2a.png" width="300" height="400">
 
 Yatin wants to kill the maximum possible number of enemies. He can kill every person
 he can see from his position with his suppressed sniper gun. But he can see only the
@@ -267,6 +267,18 @@ denoting the value at each node of the BST.
 Print the answer for each test case on a new line.
 
 # <h3>Constraints:</h3>
-1 <= t <= 20
-1 <= n <= 1000
-1 <= ai <= 1000000000
+1 <= t <= 20<br>
+1 <= n <= 1000<br>
+1 <= ai <= 1000000000<br>
+<table style="width:100%">
+ <tr>
+   <th>SAMPLE INPUT</th>
+   <th>SAMPLE OUTPUT</th>
+</tr>
+  <tr>
+    <td>1<br>
+ 9<br>
+    8 3 10 1 6 14 4 7 13</td>
+   <td> 4 </td>
+ </tr>
+ </table>
