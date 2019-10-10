@@ -83,7 +83,7 @@ The next line contains N elements where the ith element is theS[ i ] of ith code
 # <h3>Output Format</h3>
 Print a single line containing the minimum sum.
 
-# <h4>Constraints</h4>
+# <h3>Constraints</h3>
 1<= N <= 1000000<br>
 1<=S[ i ]<=1000<br>
 <table style="width:100%">
@@ -97,6 +97,7 @@ Print a single line containing the minimum sum.
     <td>11</td>
   </tr>
   </table>
+  
 # <h2> 4. Pink Floyd and Happiness</h2>
 Pink is sad because of some reasons, he wants to cheer up by listening to some songs
 from his favorite band, Pink Floyd.
