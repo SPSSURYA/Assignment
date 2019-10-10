@@ -17,7 +17,7 @@ A.
 For each test case, print the minimum time in which all array elements will become
 greater than or equal to K. Print a new line after each test case.
 
-# <h4>constraints</h4> 
+# <h4>constraints:</h4> 
 1<=T<=5<br>1<=N<=10<sup>5</sup><br>
 1<=A[i],K<=10<sup>6</sup><br>
 <table style="width:100%">
@@ -116,7 +116,7 @@ N - Numbers- order of records.<br>
 # <h3> Output Format</h3>
 Print "Happy" if the playlist has songs from 1 to N in order else "Sad".
 
-# <h3>Constraints</h3>
+# <h3>Constraints:</h3>
 1<=N<=10^5<br>
 The array consists of 1-N distinct numbers.<br>
 
@@ -150,10 +150,12 @@ DeleteFriend=true
 break
 if(DeleteFriend == false)
 delete the last friend.
+
 # <h3>Input Format</h3>
 First line contains T number of test cases. First line of each test case contains N, the
 number of friends Christie currently has and K ,the number of friends Christie decides
 to delete. Next lines contains popularity of her friends separated by space.
+
 # <h3>Output Format</h3>
 For each test case print N-K numbers which represent popularity of Christie friend's
 after deleting K friends.
