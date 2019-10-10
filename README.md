@@ -181,7 +181,7 @@ input.
  </tr>
  </table>
  
-# <h2>6.Monk watching fight</h2
+# <h2>6.Monk watching fight</h2>
 Once Monk was watching a fight between an array and a tree, of being better. Tree
 got frustrated and converted that array into a Binary Search Tree by inserting the
 elements as nodes in BST, processing elements in the given order in the array. Now
@@ -213,6 +213,7 @@ Print the height of the created Binary Search Tree.
     </td>
   </tr>
   </table>
+  
 # <h3>Explanation:</h3>
 N=4.
 
