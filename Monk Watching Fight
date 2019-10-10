@@ -1,0 +1,62 @@
+#include <iostream>
+using namespace std;
+struct node
+{
+int d;
+struct node *l,*r;
+};
+struct node *rr=NULL;
+int mx=1;
+void ins(int a)
+{
+struct node *k,*temp=(struct node *)malloc(sizeof(struct node));
+temp->d=a;
+int j;
+temp->l=temp->r=NULL;
+if(rr==NULL)
+rr=temp;
+else
+{
+k=rr;
+j=1;
+while(1)
+{
+j++;
+if(a>k->d)
+{
+if(k->r==NULL)
+{
+k->r=temp;
+break;
+}
+else
+k=k->r;
+}
+else
+{
+if(k->l==NULL)
+{
+k->l=temp;
+break;
+}
+else
+k=k->l;
+}
+}
+}
+if(j>mx)
+mx=j;
+}
+int main()
+{
+int i,a,n;
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d",&a);
+ins(a);
+}
+printf("%d",mx);
+return 0;
+
+}
