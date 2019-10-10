@@ -83,7 +83,7 @@ The next line contains N elements where the ith element is theS[ i ] of ith code
 # <h3>Output Format</h3>
 Print a single line containing the minimum sum.
 
-# <h3>Constraints</h3>
+# <h3>Constraints:</h3>
 1<= N <= 1000000<br>
 1<=S[ i ]<=1000<br>
 <table style="width:100%">
