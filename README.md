@@ -44,12 +44,15 @@ results. The TAs have released the marks of students in the form of an array, wh
 represents the marks of the ith student.
 Since you are a curious kid, you want to find all the marks that are not smaller than those
 on its right side in the array.
+
  #<h3> Input Format</h3>
 The first line of input will contain a single integer n denoting the number of students.
 The next line will contain n space separated integers representing the marks of students.
+
 # <h3>Output Format</h3>
 Output all the integers separated in the array from left to right that are not smaller than
 those on its right side.
+
 # <h3>Constraints:</h3>
 1 <= n <= 1000000<br>
 0 <= arr[i] <= 10000<br>
@@ -143,6 +146,7 @@ her to delete some of the guys from her friend list.
 To avoid a 'scene', Christie decides to remove some friends from her friend list, since
 she knows the popularity of each of the friend she has, she uses the following
 algorithm to delete a friend.
+
 # <h3>Algorithm Delete(Friend):</h3>
 DeleteFriend=false
 for i = 1 to Friend.length-1
@@ -197,6 +201,7 @@ got frustrated and converted that array into a Binary Search Tree by inserting t
 elements as nodes in BST, processing elements in the given order in the array. Now
 Monk wants to know the height of the created Binary Search Tree.
 Help Monk for the same.
+
 #  <h3>Note:</h3>
 1) In Binary Search Tree, the left sub-tree contains only nodes with values less than
 or equal to the parent node; the right sub-tree contains only nodes with values
