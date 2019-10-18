@@ -4,7 +4,6 @@
 using namespace std;
 int main()
 {
-
 long long int i,j,n;
 stack<long long int>s,p;
 cin>>n;
@@ -14,7 +13,6 @@ for(i=0;i<n;i++)
 cin>>arr[i];
 arr1[i]=arr[i];
 }
-
 p.push(arr[0]);
 for(i=1;i<n;i++)
 {
@@ -26,12 +24,10 @@ s.pop();
 }
 else
 s.push(arr[i]);
-
 }
 if(s.empty())
 cout<<"Happy";
 else
 cout<<"Sad";
-
 }
 
