@@ -91,8 +91,6 @@ Print a single line containing the minimum sum.
 1<=S[ i ]<=1000<br>
 <table style="width:100%">
  <tr>
-  
-  
    <th>SAMPLE INPUT</th>
    <th>SAMPLE OUTPUT</th>
 </tr>
