@@ -286,19 +286,19 @@ Print the answer for each test case on a new line.
  </tr>
  </table>
  
-# <h1>8. Largest cycle in a tree<h1>
+# <h2>8. Largest cycle in a tree<h2>
 You are given a tree of N nodes and N-1 edges. Now you need to select two nodes a and b in the tree such that the cycle that will be formed after adding an edge between the two nodes a and b, its length should be maximum. If there are more than one possible answer, you can output any of them.
 
-# <h2>Input Format </h2>
+# <h3>Input Format </h3>
 The first line contains an integer as N input. Next N-1 lines contain a pair of integers (a, b) that denote there is an edge between the two nodes a and b in the tree.
 
-# <h2> Output Format </h2>
+# <h3> Output Format </h3>
 In the output, you need to print two integers separated by space which denote the nodes between which you can add the edge so as to maximize the length of the cycle in the tree.
 
-# <h2> Constraints </h2>
+# <h3> Constraints </h3>
  1<=n<=10^5
  
-# <h2> Sample Input: </h2>
+# <h3> Sample Input: </h3>
 
  7
  
@@ -314,39 +314,40 @@ In the output, you need to print two integers separated by space which denote th
  
  3 7
  
-# <h2> Output Format </h2>
+# <h3> Output Format </h3>
 
  4 6
- #  <h1>9. Hacker and traffic lights</h1>
+ 
+ #  <h2>9. Hacker and traffic lights</h2>
  Zolo is stuck in a traffic due to dysfunctional traffic light. Zolo is a professional hacker and he can get into the system and change  the state of the light. His planet has different types of traffic lights such that there are N bulbs on the traffic board and only when  all of them are green(G) the cars can pass. there are 2 other states also which the bulb can show; i.e. Red(R) & Yellow(Y). Note that  the lights are designed such that they follow a state change cyclic pattern as follows: 
  
                                    R------>Y----->G----->Y
                        
  Once Zolo gets into the system he can select any position i and update all elements between i to min(N, i + K - 1)  by increasing their  state by 1.This whole process takes 1 sec and he can repeat this process any no. of times until he gets all lights = G . Find the  minimum time to do the process as Zolo is getting late for work. 
  
-# <h2> Input Format </h2>
+# <h3> Input Format </h3>
  The first line contains N K The second line describes the current status of each bulb as an array whose each element can either be G or  Y or R. 
  
-# <h2> Output Format</h2>
+# <h3> Output Format</h3>
  Print the minimum amount of time required to clear the traffic jam". 
  
-# <h2> Constraints</h2> 
+# <h3> Constraints</h3> 
 
 1<=N 
 
 K<=100000. 
 
-# <h2>Sample Input</h2>
+# <h3>Sample Input</h3>
 
 4 2 
 
 R Y G Y
  
-# <h2> Sample Output</h2>
+# <h3> Sample Output</h3>
  
  5
 
-# <h1>10. Haunted</h1>
+# <h2>10. Haunted</h2>
 The king of ghosts is really disappointed when he sees that all the human beings on Planet Earth have stopped fearing the ghost race. He knows the reason for this. The existing ghost race has become really lazy and has stopped visiting Planet Earth to scare the human race. Hence, he decides to encourage the entire ghost race into scaring the humans by holding a competition. The king, however, never visits Planet Earth. 
 This competition will go on for N days. Currently, there are a total of M ghosts (apart from the king) existing in the ghost race such that : 
 - The youngest ghost is 1 year old.
@@ -355,23 +356,23 @@ This competition will go on for N days. Currently, there are a total of M ghosts
 - The age of each and every ghost is a positive integer.
 On each day of the competition, ghosts have to visit Planet Earth to scare people. At the end of each day, a "Ghost of the Day" title is awarded to the ghost who scares the most number of humans on that particular day. However, the king of ghosts believes in consistency. Once this title has been given, the ghost who has won the most number of such titles until that particular moment is presented with a "Consistency Trophy". If there are many such ghosts, the oldest among them is given the trophy. Note that this "Title Giving" and "Trophy Giving" happens at the end of each day of the competition. You will be given the age of the ghost who won the "Ghost of the Day" title on each day of the competition. Your job is to find out the age of the ghost who was awarded with the "Consistency Trophy" on each day of the competition.
 
-# <h2Input Format></h2>
+# <h3>Input Format</h3>
 The first line consists of 2 space separated integers N and M. The next line consists of N space separated integers such that the ith integer denotes the age of the ghost who was awarded with the "Ghost of the Day" title on the ith day of the competition.
 
-# <h2>Output Format</h2>
+# <h3>Output Format</h3>
 Print N lines. The ith line should contain 2 space separated integers such that the first integer denotes the age of the ghost who was awarded with the "Consistency Trophy" on the ith day and the second integer denotes the number of "Ghost of the Day" titles won by this ghost until the end of the ith day of the competition.
 
-# <h2>Constraints</h2>
+# <h3>Constraints</h3>
 1 ≤ N ≤ 105
 
 1 ≤ M ≤ 109
 
-# <h2>Sample Input:</h2>
+# <h3>Sample Input:</h3>
 7 5
 
 1 3 1 3 2 2 2
 
-# <h2>Output Format</h2>
+# <h3>Output Format</h3>
 1 1
 
 3 1
