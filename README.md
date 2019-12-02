@@ -314,11 +314,39 @@ In the output, you need to print two integers separated by space which denote th
  
  3 7
  
-<h2> Output Format </h2>
+# <h2> Output Format </h2>
 
  4 6
+ #  <h1>9. Hacker and traffic lights</h1>
+ Zolo is stuck in a traffic due to dysfunctional traffic light. Zolo is a professional hacker and he can get into the system and change  the state of the light. His planet has different types of traffic lights such that there are N bulbs on the traffic board and only when  all of them are green(G) the cars can pass. there are 2 other states also which the bulb can show; i.e. Red(R) & Yellow(Y). Note that  the lights are designed such that they follow a state change cyclic pattern as follows: 
+ 
+                                   R------>Y----->G----->Y
+                       
+ Once Zolo gets into the system he can select any position i and update all elements between i to min(N, i + K - 1)  by increasing their  state by 1.This whole process takes 1 sec and he can repeat this process any no. of times until he gets all lights = G . Find the  minimum time to do the process as Zolo is getting late for work. 
+ 
+# <h2> Input Format </h2>
+ The first line contains N K The second line describes the current status of each bulb as an array whose each element can either be G or  Y or R. 
+ 
+# <h2> Output Format</h2>
+ Print the minimum amount of time required to clear the traffic jam". 
+ 
+# <h2> Constraints</h2> 
 
-# <h1>10. Haunted<h1>
+1<=N 
+
+K<=100000. 
+
+# <h2>Sample Input</h2>
+
+4 2 
+
+R Y G Y
+ 
+# <h2> Sample Output</h2>
+ 
+ 5
+
+# <h1>10. Haunted</h1>
 The king of ghosts is really disappointed when he sees that all the human beings on Planet Earth have stopped fearing the ghost race. He knows the reason for this. The existing ghost race has become really lazy and has stopped visiting Planet Earth to scare the human race. Hence, he decides to encourage the entire ghost race into scaring the humans by holding a competition. The king, however, never visits Planet Earth. 
 This competition will go on for N days. Currently, there are a total of M ghosts (apart from the king) existing in the ghost race such that : 
 - The youngest ghost is 1 year old.
@@ -338,7 +366,7 @@ Print N lines. The ith line should contain 2 space separated integers such that 
 
 1 ≤ M ≤ 109
 
-# <h2>Sample Input:></h2>
+# <h2>Sample Input:</h2>
 7 5
 
 1 3 1 3 2 2 2
