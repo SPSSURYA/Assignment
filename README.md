@@ -285,3 +285,75 @@ Print the answer for each test case on a new line.
    <td> 4 </td>
  </tr>
  </table>
+ 
+# <h1>8. Largest cycle in a tree<h1>
+You are given a tree of N nodes and N-1 edges. Now you need to select two nodes a and b in the tree such that the cycle that will be formed after adding an edge between the two nodes a and b, its length should be maximum. If there are more than one possible answer, you can output any of them.
+
+# <h2>Input Format </h2>
+The first line contains an integer as N input. Next N-1 lines contain a pair of integers (a, b) that denote there is an edge between the two nodes a and b in the tree.
+
+# <h2> Output Format </h2>
+In the output, you need to print two integers separated by space which denote the nodes between which you can add the edge so as to maximize the length of the cycle in the tree.
+
+# <h2> Constraints </h2>
+ 1<=n<=10^5
+ 
+# <h2> Sample Input: </h2>
+
+ 7
+ 
+ 1 2
+ 
+ 1 3
+ 
+ 2 4
+ 
+ 2 5
+ 
+ 3 6
+ 
+ 3 7
+ 
+<h2> Output Format </h2>
+
+ 4 6
+
+# <h1>10. Haunted<h1>
+The king of ghosts is really disappointed when he sees that all the human beings on Planet Earth have stopped fearing the ghost race. He knows the reason for this. The existing ghost race has become really lazy and has stopped visiting Planet Earth to scare the human race. Hence, he decides to encourage the entire ghost race into scaring the humans by holding a competition. The king, however, never visits Planet Earth. 
+This competition will go on for N days. Currently, there are a total of M ghosts (apart from the king) existing in the ghost race such that : 
+- The youngest ghost is 1 year old.
+- The oldest ghost is M years old.
+- No two ghosts have the same age.
+- The age of each and every ghost is a positive integer.
+On each day of the competition, ghosts have to visit Planet Earth to scare people. At the end of each day, a "Ghost of the Day" title is awarded to the ghost who scares the most number of humans on that particular day. However, the king of ghosts believes in consistency. Once this title has been given, the ghost who has won the most number of such titles until that particular moment is presented with a "Consistency Trophy". If there are many such ghosts, the oldest among them is given the trophy. Note that this "Title Giving" and "Trophy Giving" happens at the end of each day of the competition. You will be given the age of the ghost who won the "Ghost of the Day" title on each day of the competition. Your job is to find out the age of the ghost who was awarded with the "Consistency Trophy" on each day of the competition.
+
+# <h2Input Format></h2>
+The first line consists of 2 space separated integers N and M. The next line consists of N space separated integers such that the ith integer denotes the age of the ghost who was awarded with the "Ghost of the Day" title on the ith day of the competition.
+
+# <h2>Output Format</h2>
+Print N lines. The ith line should contain 2 space separated integers such that the first integer denotes the age of the ghost who was awarded with the "Consistency Trophy" on the ith day and the second integer denotes the number of "Ghost of the Day" titles won by this ghost until the end of the ith day of the competition.
+
+# <h2>Constraints</h2>
+1 ≤ N ≤ 105
+
+1 ≤ M ≤ 109
+
+# <h2>Sample Input:></h2>
+7 5
+
+1 3 1 3 2 2 2
+
+# <h2>Output Format</h2>
+1 1
+
+3 1
+
+1 2
+
+3 2
+
+3 2
+
+3 2
+
+2 3
